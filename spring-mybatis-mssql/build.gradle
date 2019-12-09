@@ -1,0 +1,27 @@
+apply plugin: 'maven'
+
+version = '1.0'
+
+dependencies {
+	// mybatis
+	implementation 'org.mybatis.spring.boot:mybatis-spring-boot-starter:2.0.1'
+
+	// sql server
+	implementation 'com.microsoft.sqlserver:mssql-jdbc:7.2.2.jre8'
+
+	// guava
+	implementation 'com.google.guava:guava:27.1-jre'
+
+	// lombok
+	compileOnly 'org.projectlombok:lombok'
+	annotationProcessor 'org.projectlombok:lombok'
+	testCompileOnly 'org.projectlombok:lombok'
+	testAnnotationProcessor 'org.projectlombok:lombok'
+
+	// test
+	testImplementation 'org.springframework.boot:spring-boot-starter-test'
+}
+
+jar {
+	enabled = true
+}

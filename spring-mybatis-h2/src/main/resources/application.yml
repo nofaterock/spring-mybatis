@@ -1,0 +1,13 @@
+logging:
+    pattern:
+        console: "%d{HH:mm:ss.SSS} %-5level %20.20t %50.50C{36}:%4.4L - %m%n"
+        level: info
+spring:
+    datasource:
+        initialization-mode: always
+        driver-class-name: org.h2.Driver
+        url: jdbc:h2:mem:testdb
+        username: sa
+        password:
+mybatis:
+    mapper-locations: classpath:mybatis/**/*.xml

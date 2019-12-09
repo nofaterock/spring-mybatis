@@ -1,0 +1,13 @@
+logging:
+    pattern:
+        console: "%d{HH:mm:ss.SSS} %-5level %20.20t %50.50C{36}:%4.4L - %m%n"
+        level: info
+spring:
+    datasource:
+        initialization-mode: always
+        driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+        url: jdbc:sqlserver://localhost;databaseName=test;
+        username: sa
+        password: SE@knet8385
+mybatis:
+    mapper-locations: classpath:mybatis/**/*.xml
