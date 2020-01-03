@@ -15,8 +15,8 @@ import java.sql.SQLException;
  * @author 한승룡
  * @since 2019-12-09
  */
-@ExtendWith(SpringExtension.class)
 @SpringBootTest
+@ExtendWith(SpringExtension.class)
 public class SpringH2ApplicationTests {
 
 	@Autowired
