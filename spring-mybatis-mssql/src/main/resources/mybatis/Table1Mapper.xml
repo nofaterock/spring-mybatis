@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.knet.template.mybatis.mssql.mapper.Table1Mapper">
+<mapper namespace="com.nofaterock.mybatis.mssql.mapper.Table1Mapper">
 
-	<insert id="add" parameterType="com.knet.template.mybatis.mssql.dto.Table1Dto">
+	<insert id="add" parameterType="com.nofaterock.mybatis.mssql.dto.Table1Dto">
 		INSERT INTO Table1 (
 			id, val1, val2
 		)
@@ -12,7 +12,7 @@
 		);
 	</insert>
 
-	<select id="getAll" resultType="com.knet.template.mybatis.mssql.dto.Table1Dto">
+	<select id="getAll" resultType="com.nofaterock.mybatis.mssql.dto.Table1Dto">
 		SELECT
 			id,
 			val1,

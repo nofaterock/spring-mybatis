@@ -1,8 +1,7 @@
-package com.knet.template.mybatis.mssql;
+package com.nofaterock.mybatis.mssql;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.ApplicationContext;
 
 /**
  * @author 한승룡

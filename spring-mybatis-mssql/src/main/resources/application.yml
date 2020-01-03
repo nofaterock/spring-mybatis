@@ -7,7 +7,7 @@ spring:
         initialization-mode: always
         driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
         url: jdbc:sqlserver://localhost;databaseName=test;
-        username: sa
-        password: SE@knet8385
+        username: <username>
+        password: <password>
 mybatis:
     mapper-locations: classpath:mybatis/**/*.xml

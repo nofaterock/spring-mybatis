@@ -1,9 +1,4 @@
-pluginManagement {
-	repositories {
-		gradlePluginPortal()
-	}
-}
-rootProject.name = 'com.knet.template.mybatis'
+rootProject.name = 'spring-mybatis-example'
 
 include 'spring-mybatis-h2'
 include 'spring-mybatis-mssql'

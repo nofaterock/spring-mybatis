@@ -1,6 +1,6 @@
-package com.knet.template.mybatis.mssql.mapper;
+package com.nofaterock.mybatis.mssql.mapper;
 
-import com.knet.template.mybatis.mssql.dto.Table1Dto;
+import com.nofaterock.mybatis.mssql.dto.Table1Dto;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

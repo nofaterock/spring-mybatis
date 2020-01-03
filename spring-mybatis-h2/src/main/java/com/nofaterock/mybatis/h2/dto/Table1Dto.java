@@ -1,4 +1,4 @@
-package com.knet.template.mybatis.mssql.dto;
+package com.nofaterock.mybatis.h2.dto;
 
 import lombok.Getter;
 import lombok.Setter;

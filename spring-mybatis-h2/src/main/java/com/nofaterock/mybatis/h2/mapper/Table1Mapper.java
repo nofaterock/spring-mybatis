@@ -1,6 +1,6 @@
-package com.knet.template.mybatis.h2.mapper;
+package com.nofaterock.mybatis.h2.mapper;
 
-import com.knet.template.mybatis.h2.dto.Table1Dto;
+import com.nofaterock.mybatis.h2.dto.Table1Dto;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;

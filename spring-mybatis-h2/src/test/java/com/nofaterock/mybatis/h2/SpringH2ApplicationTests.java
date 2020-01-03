@@ -1,12 +1,12 @@
-package com.knet.template.mybatis.h2;
+package com.nofaterock.mybatis.h2;
 
-import com.knet.template.mybatis.h2.dto.Table1Dto;
-import com.knet.template.mybatis.h2.mapper.Table1Mapper;
-import org.junit.Test;
-import org.junit.runner.RunWith;
+import com.nofaterock.mybatis.h2.dto.Table1Dto;
+import com.nofaterock.mybatis.h2.mapper.Table1Mapper;
+import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.context.junit.jupiter.SpringExtension;
 
 import javax.sql.DataSource;
 import java.sql.SQLException;
@@ -15,7 +15,7 @@ import java.sql.SQLException;
  * @author 한승룡
  * @since 2019-12-09
  */
-@RunWith(SpringRunner.class)
+@ExtendWith(SpringExtension.class)
 @SpringBootTest
 public class SpringH2ApplicationTests {
 
